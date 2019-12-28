@@ -1,0 +1,7 @@
+{
+    "cmake.configureArgs": [
+        "-DCMAKE_TOOLCHAIN_FILE=${env:ANDROID_NDK_HOME}/build/cmake/android.toolchain.cmake",
+        "-DANDROID_ABI=x86",
+        "-DANDROID_NATIVE_API_LEVEL=android-29"
+    ]
+}
